@@ -1,23 +1,26 @@
-{  
-  "compilerOptions": {  
-  "target": "es6",  
-    "module": "commonjs",  
-    "rootDir": "src",  
-    "outDir": "dist",  
-    "sourceMap": true,  
-    "resolveJsonModule": true,  
-    "lib": ["es6", "dom"],  
-    "esModuleInterop": true  
-  },  
-  "include": [  
-    "src/**/*.ts"  
-  ],  
-  "exclude": [  
-    "node_modules"  
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ],
   "typeAcquisition": {
     "include": [
       "jest"
     ]
-  }  
-}  
+  }
+}
